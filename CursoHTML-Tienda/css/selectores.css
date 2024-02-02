@@ -1,0 +1,13 @@
+/*Selector universal '*' es decir que selecciona a toda la página 
+*{
+    border: 1px solid burlywood;
+    margin: 5px;
+}*/
+/*Selectores de clases, para diferenciar una etiqueta de una clase, debemos colocar un punto y el nombre de la clase.*/
+/* .header{
+    color:blue;
+} 
+/* Selector de ID, debemos colocar el signo de gato para hacer referencia al ID 
+#aboutme{
+    background-color: white;
+}*/

@@ -1,0 +1,93 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(13, 13, 15) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color:white;
+}
+
+.header{
+    background-color: rgb(42, 42, 78);
+}
+.header-wrapper{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.header-logo{
+    float: left;
+}
+.header-menu{
+    float: right;
+}
+
+.header-menu-wrapper{
+    margin: 0;
+    padding: 0;
+    list-style: style none;
+    font-size: 0%;
+    
+}
+.header-menu-item{
+    display: inline-block;
+    font-size: 18px;
+}
+.header-menu-link{
+    height: 50px;
+    display:inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+}
+.header-menu-link:hover{
+    background-color: rgb(0,0,0, 0.3);}
+
+.cover-title{
+    font-size: 36px;
+    margin: 0;
+}
+.cover-text{
+    background-color: rgba(6, 123, 248, 0.6);
+    color: rgbrgb(26, 16, 16);
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cover-wrapper{
+    text-align:center;
+}
+.cover{
+    background-image:url("../img/newPerritos.jpg");
+    background-position: bottom;
+    margin-inline: 50px;
+    padding: 100px;
+    width: 800px;
+    height: 450px;
+    margin-left: 500px;
+    margin-top: 5px;
+    background-size: 830px 450px;
+   
+}
+.cover-wrapper{
+    margin-top: 200px;
+}
+.cover-text{
+    width:max-content;
+    height: 100px;
+    padding: 8px;
+    margin: 30px;
+    display: ruby-base-container;
+    margin-top: 200px;
+}
+.title-underline{
+    color: rgb(26, 16, 16);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
